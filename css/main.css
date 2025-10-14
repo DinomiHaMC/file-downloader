@@ -1,0 +1,146 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #0b0b0c;
+}
+
+main {
+    padding: 3rem;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(29, 30, 31, 0.8);
+    backdrop-filter: blur(10px);
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    min-width: 300px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+main h2 {
+    font-size: 2.5em;
+    margin-bottom: 1rem;
+    color: #06eb15;
+}
+
+main .description {
+    font-size: 1.1em;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    color: #ffffff;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .features {
+    margin-top: 2rem;
+    text-align: left;
+    padding: 1rem;
+}
+
+main .features p {
+    margin: 0.8rem 0;
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+main .buttons {
+    align-items: center;
+}
+
+.plate {
+    height: 100vh;
+    background: linear-gradient(to bottom, #00ff11, #202020);
+    color: #000000;
+}
+
+.plate h1 {
+    position: relative;
+    font-size: 100px;
+    margin: 0;
+    top: 37vh;
+    text-align: center;
+}
+
+.plate p {
+    position: relative;
+    font-size: 40px;
+    margin: 0;
+    top: 40vh;
+    text-align: center;
+}
+
+.full-button {
+    display: inline-flex;
+    align-items: center;
+    width: 350px;
+    border: #141414 solid 10px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: #1d1e1f;
+    font-weight: 300;
+}
+
+.full-button img {
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+.full-button span{
+    margin: 20px;
+}
+
+.full-button input{
+    width: 150px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #5cc691 0%, #5cc691 49%, #06eb15 100%);
+    background-size: 200% 100%;
+    background-position: left center;
+    transition: background-position 1.5s ease, transform 0.2s ease;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.full-button input:hover{
+    background-position: right center;
+    transform: translateY(-1px);
+}
+
+.full-button input:active{
+    background-color: #fff;
+}
+
+header {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #06eb15;
+    margin: 30px;
+}
+
+footer {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    bottom: 0;
+}
