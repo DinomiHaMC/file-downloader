@@ -28,7 +28,7 @@ main {
 main h2 {
     font-size: 2.5em;
     margin-bottom: 1rem;
-    color: #06eb15;
+    color: #ffffff;
 }
 
 main .description {
@@ -106,7 +106,7 @@ main .buttons {
     height: 50px;
     border: 0;
     border-radius: 10px;
-    background: linear-gradient(90deg, #5cc691 0%, #5cc691 49%, #06eb15 100%);
+    background: linear-gradient(90deg, #a8a8a8 0%, #a8a8a8 49%, #ffffff 100%);
     background-size: 200% 100%;
     background-position: left center;
     transition: background-position 1.5s ease, transform 0.2s ease;
@@ -134,7 +134,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #06eb15;
+    color: #ffffff;
     margin: 30px;
 }
 
